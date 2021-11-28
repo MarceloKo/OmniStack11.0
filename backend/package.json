@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "celebrate": "^15.0.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "jest": "^27.3.1",
     "knex": "^0.95.14",
     "sqlite3": "^5.0.2"
   },
